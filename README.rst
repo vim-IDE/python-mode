@@ -40,7 +40,7 @@ See (very old) screencast here: http://www.youtube.com/watch?v=67OZNp9Z0CQ
 (sorry for quality, this is my first screencast) Another old presentation here:
 http://www.youtube.com/watch?v=YhqsjUUHj6g
 
-**To read python-mode documentation in Vim, see** ``:help pymode.txt``
+**To read python-mode documentation in Vim, see** ``:help pymode``
 
 
 .. contents::
@@ -62,7 +62,7 @@ Using pathogen (recommended)
 
     % cd ~/.vim
     % mkdir -p bundle && cd bundle
-    % git clone git://github.com/klen/python-mode.git
+    % git clone https://github.com/klen/python-mode.git
 
 - Enable `pathogen <https://github.com/tpope/vim-pathogen>`_
   in your ``~/.vimrc``: ::
@@ -81,7 +81,7 @@ Manually
 --------
 ::
 
-    % git clone git://github.com/klen/python-mode.git
+    % git clone https://github.com/klen/python-mode.git
     % cd python-mode
     % cp -R * ~/.vim
 
